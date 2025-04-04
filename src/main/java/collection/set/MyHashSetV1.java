@@ -1,6 +1,7 @@
 package collection.set;
 
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.LinkedList;
 
 public class MyHashSetV1 {
@@ -59,6 +60,7 @@ public class MyHashSetV1 {
             return false;
         }
     }
+
 
     private int hashIndex(int value){
         return value % capacity;
